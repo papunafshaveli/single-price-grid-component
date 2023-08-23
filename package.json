@@ -1,0 +1,16 @@
+{
+  "name": "single-price-grid-component",
+  "version": "1.0.0",
+  "description": "Single price grid component",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./src/main.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./src/main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
