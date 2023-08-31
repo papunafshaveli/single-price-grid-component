@@ -14,43 +14,62 @@
     <title>Single Price Grid Component</title>
   </head>
   <body>
-    <div class="max-w-lg m-auto rounded-xl">
-      <div class="bg-white px-10 py-8 rounded-t-xl">
-        <h1 class="text-cyanFont text-2xl font-bold mb-5 tracking-widest">
+    <div class="card max-w-lg lg:max-w-5xl lg:max-h-max m-auto">
+      <div class="first-div bg-white px-10 lg:px-20 py-8 lg:py-14 rounded-t-xl">
+        <h1
+          class="text-cyanFont text-2xl lg:text-4xl font-bold mb-5 lg:mb-7 tracking-widest"
+        >
           Join our community
         </h1>
-        <p class="text-brightYellow text-2xl">
+        <p class="text-brightYellow text-2xl lg:text-3xl lg:font-bold">
           30-day, hassle-free money back guarantee
         </p>
-        <p class="text-gray-400 mt-5 font-medium leading-8 font-karlaFont">
+        <p
+          class="text-gray-400 mt-5 lg:mt-7 font-medium lg:text-2xl leading-8 font-karlaFont"
+        >
           Gain access to our full library of tutorials along with expert code
           reviews. Perfect for any developers who are serious about honing their
           skills.
         </p>
       </div>
-      <div class="bg-cyan-400 px-10 py-8">
-        <h2 class="text-white text-2xl font-bold tracking-wide mb-5">
-          Monthly Subscription
-        </h2>
-        <p class="text-white text-3xl font-bold mb-3">
-          $29 <span class="text-slate-300 text-xl font-normal">per month</span>
-        </p>
-        <p class="text-white text-xl font-semibold mb-7">
-          Full access for less than $1 a day
-        </p>
-        <button
-          class="text-white text-3xl font-extrabold bg-brightYellow rounded-lg w-full h-20"
+      <div class="both-divs lg:flex">
+        <div
+          class="first-one-div bg-cyan-400 px-10 py-8 lg:px-20 lg:py-14 lg:rounded-bl-xl"
         >
-          Sign Up
-        </button>
-      </div>
-      <div class="bg-cyan-300 rounded-b-xl px-10 py-8">
-        <h3 class="text-white text-3xl font-bold mb-4">Why Us</h3>
-        <p class="text-slate-50 text-xl w-8/12">
-          Tutorials by industry experts Peer &amp; expert code review Coding
-          exercises Access to our GitHub repos Community forum Flashcard decks
-          New videos every week
-        </p>
+          <h2
+            class="text-white text-2xl lg:text-4xl font-bold tracking-wide mb-5"
+          >
+            Monthly Subscription
+          </h2>
+          <p class="text-white text-3xl lg:text-6xl font-bold mb-4">
+            $29
+            <span class="text-slate-100 text-xl lg:text-2xl font-normal"
+              >per month</span
+            >
+          </p>
+          <p class="text-white text-xl lg:text-2xl font-semibold mb-7">
+            Full access for less than $1 a day
+          </p>
+          <button
+            class="hover:bg-amber-600 text-white text-3xl font-extrabold bg-brightYellow rounded-xl w-full h-20 lg:w-[340px]"
+          >
+            Sign Up
+          </button>
+        </div>
+        <div
+          class="second-one-div bg-cyan-300 rounded-b-xl lg:rounded-bl px-10 py-8 lg:px-20 lg:py-14"
+        >
+          <h3 class="text-white text-3xl font-bold mb-4 lg:mb-7 lg:text-4xl">
+            Why Us
+          </h3>
+          <p
+            class="text-slate-50 text-xl lg:text-3xl w-8/12 lg:w-full lg:leading-10"
+          >
+            Tutorials by industry experts Peer &amp; expert code review Coding
+            exercises Access to our GitHub repos Community forum Flashcard decks
+            New videos every week
+          </p>
+        </div>
       </div>
     </div>
   </body>
